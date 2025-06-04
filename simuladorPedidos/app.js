@@ -33,8 +33,5 @@ async function processOrder(order) {
     setTimeout(() => {
         updateOrderStatus(order, 'Completado');
     },preparacion)
-
-    //await new Promise(resolve => setTimeout(resolve, preparacion));
-    //updateOrderStatus(order, 'Completado');
     console.log(`Pedido #${order.id} completado en ${preparacion} ms`);
 }
