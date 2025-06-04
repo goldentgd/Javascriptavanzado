@@ -28,7 +28,7 @@ async function processOrder(order) {
     // TODO: Actualizar el estado del pedido a "Completado"
     const preparacion = Math.floor(Math.random() * 5000) + 2000;
     setTimeout(() => {
-        updateOrderStatus(order, 'En preparación');
+        updateOrderStatus(order, 'Casi listo');
     },2000)
     setTimeout(() => {
         updateOrderStatus(order, 'Completado');
