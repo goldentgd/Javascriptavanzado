@@ -1,0 +1,26 @@
+[
+        {
+            "titulo": "Cien años de soledad",
+            "autor": "Gabriel García Márquez",
+            "genero": "Realismo mágico",
+            "disponible": true
+        },
+        {
+            "titulo": "1984",
+            "autor": "George Orwell",
+            "genero": "Distopía",
+            "disponible": true
+        },
+        {
+            "titulo": "El amor en los tiempos del cólera",
+            "autor": "Gabriel García Márquez",
+            "genero": "Realismo mágico",
+            "disponible": false
+        },
+        {
+            "titulo": "Orgullo y prejuicio",
+            "autor": "Jane Austen",
+            "genero": "Romance",
+            "disponible": true
+        }
+]
