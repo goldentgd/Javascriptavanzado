@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #dc480e;
+}
+
+#fetch-btn {
+    padding: 10px 20px;
+    background-color: #c514a4;
+    color: white;
+    border-radius: 10px;
+}
+#axios-btn {
+    padding: 10px 20px;
+    background-color: #c514a4;
+    color: white;
+    border-radius: 10px;
+}
+#data-container {
+    border: 1px solid #962c2c;
+    background-color: rgb(228, 173, 21);
+    padding: 10px;
+    min-height: 200px;
+}
+
+.post {
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+}
