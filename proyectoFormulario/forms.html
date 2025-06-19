@@ -16,17 +16,17 @@
     <input type="email" id="correo" name="correo" required>
 
     <label for="telefono">Teléfono:</label>
-    <input type="tel" id="telefono" name="telefono" required>
+    <input type="tel" id="telefono" name="telefono" maxlength="10" required>
 
     <label>Intereses:</label>
-    <label><input type="checkbox" name="intereses" value="tecnología"> Tecnología</label>
-    <label><input type="checkbox" name="intereses" value="negocios"> Negocios</label>
-    <label><input type="checkbox" name="intereses" value="arte"> Arte</label>
+    <label><input type="checkbox" name="intereses" value="tecnología" id="check"> Tecnología</label>
+    <label><input type="checkbox" name="intereses" value="negocios" id="check"> Negocios</label>
+    <label><input type="checkbox" name="intereses" value="arte" id="check"> Arte</label>
 
     <label>Horario preferido:</label>
-    <label><input type="radio" name="horario" value="mañana" required> Mañana</label>
-    <label><input type="radio" name="horario" value="tarde"> Tarde</label>
-    <label><input type="radio" name="horario" value="noche"> Noche</label>
+    <label><input type="radio" name="horario" value="mañana" required id="check"> Mañana</label>
+    <label><input type="radio" name="horario" value="tarde" id="check"> Tarde</label>
+    <label><input type="radio" name="horario" value="noche" id="check"> Noche</label>
 
     <label for="fecha">Fecha del evento:</label>
     <input type="date" id="fecha" name="fecha" required>

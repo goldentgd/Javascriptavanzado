@@ -1,18 +1,43 @@
+body{
+    background-color: rgb(47 157 147);
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+
 form {
       width: 50%;
       margin: auto;
-      padding: 20px;
-      border: 1px solid #ccc;
+      padding: 40px;
+      border: 5px solid #2915d3;
       border-radius: 5px;
     }
     label {
       display: block;
       margin-bottom: 5px;
     }
-    input, select, button {
+    input, select{
       width: 100%;
       margin-bottom: 15px;
       padding: 10px;
       border: 1px solid #ccc;
       border-radius: 5px;
     }
+    button {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: aquamarine;
+    }
+
+#check{
+      width: 50%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+}
