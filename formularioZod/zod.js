@@ -9,7 +9,6 @@ const registerSchema = z.object({
 document.getElementById("registerForm").addEventListener("submit", (event) => {
   event.preventDefault();
 
-  // Limpia errores anteriores
   ["name", "email", "password"].forEach(field => {
     document.getElementById(`error-${field}`).textContent = "";
   });
@@ -26,7 +25,7 @@ document.getElementById("registerForm").addEventListener("submit", (event) => {
   } catch (error) {
     if (error.errors) {
       error.errors.forEach(err => {
-        const field = err.path[0]; // 'name', 'email' o 'password'
+        const field = err.path[0];
         const span = document.getElementById(`error-${field}`);
         if (span) span.textContent = err.message;
       });
