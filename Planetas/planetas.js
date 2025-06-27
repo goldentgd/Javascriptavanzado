@@ -1,5 +1,15 @@
 const planetas = [
   {
+    nombre: "Titán",
+    descripcion: "La luna más grande de Saturno, con lagos de metano.",
+    descubiertoEn: "1655",
+    coordenadas: {
+      ascensionRecta: "",
+      declinacion: ""
+    },
+    imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Titan_in_true_color.jpg/800px-Titan_in_true_color.jpg"
+  },
+  {
     nombre: "Próxima Centauri b",
     descripcion: "Un exoplaneta rocoso en la zona habitable de su estrella.",
     descubiertoEn: "2016",
